@@ -509,6 +509,28 @@ p {
     align-items: center;
 }
 
+.cvpart{
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1.7;
+    margin-top: -20px;
+}
+
+.cvpart__text{
+    color: #fff;
+    display: flex;
+    align-items: right;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height:1000;
+}
+
 #footer__logo{
     color: #fff;
     display: flex;
@@ -516,6 +538,7 @@ p {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    margin-top: 100px;
 }
 
 .footer__links{
