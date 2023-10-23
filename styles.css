@@ -56,8 +56,8 @@ p {
 }
   
 .fi-sr-planet-ringed{
-    margin-right: 0.1rem;
-    margin-top: 6px;
+    margin-right: 0rem;
+    margin-top: 7px;
 }
 
 .navbar__menu{
@@ -169,7 +169,7 @@ p {
 
     .navbar__link{
         text-align: center;
-        padding: 2rm;
+        padding: 0rem;
         width: 100%;
         display: table;
     }
@@ -348,12 +348,12 @@ p {
     }
 
     .main__content h1{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         margin-top: 2rem;
     }
 
     .main__content h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .main__content p{
@@ -362,7 +362,7 @@ p {
     }
 
     .longsaturn{
-        width: 42px;
+        width: 50px;
         margin-right: -15px;
         margin-left: -15px;
     }
