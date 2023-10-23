@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Gabarito', sans-serif;
 }
 
 .navbar{
@@ -55,9 +55,9 @@ p {
     100% { color: rgb(255, 0, 0); }
 }
   
-
-.fa-gem{
-    margin-right: 0.5rem;
+.fi-sr-planet-ringed{
+    margin-right: 0.1rem;
+    margin-top: 6px;
 }
 
 .navbar__menu{
@@ -266,9 +266,9 @@ p {
 }
 
 .longsaturn{
-    width: 60px;
-    margin-right: -20px;
-    margin-left: -10px;
+    width: 57px;
+    margin-right: -25px;
+    margin-left: -15px;
 }
 
 .main__content p{
@@ -359,6 +359,12 @@ p {
     .main__content p{
         margin-top: 1rem;
         font-size: 1.5rem;
+    }
+
+    .longsaturn{
+        width: 42px;
+        margin-right: -15px;
+        margin-left: -15px;
     }
 }
 
