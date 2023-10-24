@@ -212,6 +212,42 @@ p {
     }
 }
 
+/* Style for the moredropdown menu */
+.moredropdown a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    margin-left: -17px;
+}
+
+.moredropdown-content {
+    margin-left: -17px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    background-color: #f77062;
+    min-width: 50px;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.moredropdown-content li {
+    align-items: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: block;
+    height: 30px;
+}
+
+.moredropdown:hover .moredropdown-content {
+    display: block;
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+
+
 /* Hero Section */
 .main {
     background-color:#141414;
@@ -530,16 +566,129 @@ p {
     font-size: 2rem;
     line-height: 10;
 }
-.office__hours{
+
+.office__hours table {
+    border-collapse: collapse;
+    border: 2px solid white;
     color: #fff;
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
     text-decoration: none;
     font-size: 1rem;
 }
+
+.office__hours td {
+    text-align: center;
+}
+
+.office__hours h2 {
+    text-align: center;
+    color: white;
+}
+
+.office__hours td:nth-child(1) {
+    background-color: rgb(66, 66, 66);
+}
+
+.office__hours tr:nth-child(1) {
+    background-color: rgb(66, 66, 66);
+}
+
+/*Free Periods*/
+.office__hours tr:nth-child(2) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(7) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(3) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(3) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(5) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(6) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(7) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(7) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(7) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(8) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(5) td:nth-child(8) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(6) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+/*END*/
 
 #footer__logo{
     color: #fff;
