@@ -44,20 +44,20 @@
 }
 
 p {
-    /*animation: color-change 2s infinite;*/
+    animation: color-change 5s infinite;
 }
   
 @keyframes color-change {
-    000% { color: rgb(255, 0, 0); }
-    025% { color: rgb(91, 188, 0); }
-    050% { color: rgb(0, 21, 255); }
-    075% { color: rgb(136, 0, 255); }
-    100% { color: rgb(255, 0, 0); }
+    000% { color: rgb(227, 161, 37); }
+    025% { color: #7b590a; }
+    050% { color: rgb(227, 161, 37); }
+    075% { color: #7b590a; }
+    100% { color: rgb(227, 161, 37); }
 }
   
 .fi-sr-planet-ringed{
-    margin-right: 0.1rem;
-    margin-top: 6px;
+    margin-right: 0rem;
+    margin-top: 7px;
 }
 
 .navbar__menu{
@@ -169,7 +169,7 @@ p {
 
     .navbar__link{
         text-align: center;
-        padding: 2rm;
+        padding: 0rem;
         width: 100%;
         display: table;
     }
@@ -211,6 +211,42 @@ p {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+/* Style for the moredropdown menu */
+.moredropdown a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    margin-left: -17px;
+}
+
+.moredropdown-content {
+    margin-left: -17px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    background-color: #f77062;
+    min-width: 50px;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.moredropdown-content li {
+    align-items: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: block;
+    height: 30px;
+}
+
+.moredropdown:hover .moredropdown-content {
+    display: block;
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+
 
 /* Hero Section */
 .main {
@@ -348,12 +384,12 @@ p {
     }
 
     .main__content h1{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         margin-top: 2rem;
     }
 
     .main__content h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .main__content p{
@@ -362,7 +398,7 @@ p {
     }
 
     .longsaturn{
-        width: 42px;
+        width: 50px;
         margin-right: -15px;
         margin-left: -15px;
     }
@@ -528,8 +564,131 @@ p {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    line-height:1000;
+    line-height: 10;
 }
+
+.office__hours table {
+    border-collapse: collapse;
+    border: 2px solid white;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.office__hours td {
+    text-align: center;
+}
+
+.office__hours h2 {
+    text-align: center;
+    color: white;
+}
+
+.office__hours td:nth-child(1) {
+    background-color: rgb(66, 66, 66);
+}
+
+.office__hours tr:nth-child(1) {
+    background-color: rgb(66, 66, 66);
+}
+
+/*Free Periods*/
+.office__hours tr:nth-child(2) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(7) td:nth-child(2) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(3) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(3) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(5) td:nth-child(4) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(6) td:nth-child(5) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(7) td:nth-child(6) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(7) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(7) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(4) td:nth-child(8) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(5) td:nth-child(8) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(2) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(3) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+.office__hours tr:nth-child(6) td:nth-child(9) {
+    background-color: rgb(22, 149, 50);
+}
+
+/*END*/
 
 #footer__logo{
     color: #fff;
