@@ -44,15 +44,15 @@
 }
 
 p {
-    animation: color-change 5s infinite;
+    animation: color-change 4s infinite;
 }
   
 @keyframes color-change {
-    000% { color: rgb(227, 161, 37); }
-    025% { color: #7b590a; }
-    050% { color: rgb(227, 161, 37); }
-    075% { color: #7b590a; }
-    100% { color: rgb(227, 161, 37); }
+    000% { color: rgb(255, 255, 255); }
+    025% { color: #770e0e; }
+    050% { color: rgb(255, 255, 255); }
+    075% { color: #770e0e; }
+    100% { color: rgb(255, 255, 255); }
 }
   
 .fi-sr-planet-ringed{
