@@ -111,7 +111,7 @@ p {
 }
 
 .navbar__link:hover{
-    color: #f77062;
+    color: #2cb585;
     transition: all 0.3s ease;
 }
 
@@ -226,7 +226,7 @@ p {
     margin-top: 5px;
     display: none;
     position: absolute;
-    background-color: #2cb585;;
+    background-color: #2cb585;
     min-width: 50px;
     box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
     z-index: 1;
@@ -586,104 +586,104 @@ p {
 }
 
 .office__hours td:nth-child(1) {
-    background-color: rgb(66, 66, 66);
+    background-color: #2c2c2c;
 }
 
 .office__hours tr:nth-child(1) {
-    background-color: rgb(66, 66, 66);
+    background-color: #2c2c2c;
 }
 
 /*Free Periods*/
 .office__hours tr:nth-child(2) td:nth-child(2) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(2) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(2) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(7) td:nth-child(2) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(3) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(3) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(2) td:nth-child(4) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(4) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(5) td:nth-child(4) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(2) td:nth-child(5) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(5) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(6) td:nth-child(5) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(2) td:nth-child(6) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(6) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(6) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(7) td:nth-child(6) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(7) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(7) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(4) td:nth-child(8) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(5) td:nth-child(8) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(2) td:nth-child(9) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(3) td:nth-child(9) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 .office__hours tr:nth-child(6) td:nth-child(9) {
-    background-color: rgb(22, 149, 50);
+    background-color: #2cb585;
 }
 
 /*END*/
