@@ -268,7 +268,7 @@ p {
 .main__content h1{
     font-size: 4rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, rgb(248, 237, 32) 0%, #ff4e08 100%);
+    background-image: linear-gradient(to top, #b59a00 0%, #FFD700 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
