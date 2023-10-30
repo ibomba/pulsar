@@ -43,7 +43,7 @@
     font-size: 2rem;
 }
 
-p {
+.main__content p {
     animation: color-change 4s infinite;
 }
   
